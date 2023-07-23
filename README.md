@@ -35,6 +35,14 @@ The implementation also includes a function to replace each pixel in the image w
 
 The implementation also has the error measure between the original image and the image obtained with the metric of mean squared error(MSE), which has less color depth than the original image.
 
+## Configuration And Installation
+
+To download and install the required dependencies, follow these steps:\
+`git clone https://github.com/prnv28/k-means-clustering.git`\
+`cd k-means-clustering`\
+`pip install -r requirements.txt`
+
+
 #  Results
 
 In an implementation, the K-Means algorithm was applied to a sample image of a playing child in the park, as given in Figure 1, and ran the K-means clustering algorithm for various values of K = {2,5,10,20,25,50,75,100} to analyze its performance. The plot of the Mean Squared Error(MSE) as a function of the number of clusters K as calculated based on the implementation of the K-means clustering algorithm, which is given in Table 1 to determine
